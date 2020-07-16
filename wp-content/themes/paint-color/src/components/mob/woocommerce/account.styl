@@ -1,0 +1,115 @@
+.woocommerce-account
+    #content
+        .woocommerce
+            // display: flex
+            // align-items: flex-start
+            margin-bottom: 40px
+
+            &-MyAccount-navigation
+                flex: 0 0 100%
+                border: 1px solid #ebebeb
+                margin: 0 0 40px 0
+                border-radius: 5px
+                padding: 20px
+                li.woocommerce-MyAccount-navigation-link
+                    a
+                        padding: 10px 20px
+                        margin: 0 -20px
+                        display: block
+                        background: #ffffff
+                        transition: transition[0]
+                        color: cor[2]
+                        font-size: 18px
+                        font-weight: 600
+                        &:hover
+                            background: #ebebeb
+                    &.is-active
+                        a
+                            background: #ebebeb
+
+            &-MyAccount-content
+                flex: 1 1 auto
+                .woocommerce-notices-wrapper
+                    ~p
+                        font-size: 22px
+                        margin-bottom: 20px
+                .woocommerce-orders-table
+                    width: 100%
+                    thead
+                        background: #ebebeb
+                        th
+                            padding: 5px
+                            font-size: 16px
+                            font-weight: 600
+                    tbody
+                        td
+                            padding: 10px 5px
+                            margin-bottom: 5px
+                            border-bottom: 1px solid #ebebeb
+                            a
+                                color: cor[0]
+                                &.pay
+                                    margin: 0 10px 0 0
+                                    padding: 0 10px 0 0
+                                    border-right: 1px solid cor[2]
+
+                                &.cancel
+                                    margin: 0 0 0 10px
+                                    padding: 0 0 0 10px
+                                    border-left: 1px solid cor[2]
+                            &.woocommerce-orders-table__cell-order-actions
+                                width: 230px
+
+                button
+                    background: cor[0]
+                    color: #ffffff
+                    border-radius: 5px
+                    height 48px
+                    border: none
+                    padding: 0 30px
+                    font-size: 16px
+                    font-weight: 600
+
+            &-order-details
+                h2
+                    font-size: 18px
+                    font-weight: 600
+                    margin-bottom: 10px
+
+                .woocommerce-thankyou-order-received
+                    font-size: 22px
+                    text-align: center
+                    margin-bottom: 30px
+
+                .order_details
+                    margin-bottom: 30px
+                    padding-bottom: 30px
+                    border-bottom: 1px solid cor[3] 
+                    width: 100%
+
+            .custom-fields
+                margin-bottom: 30px
+                padding-bottom: 30px
+                border-bottom: 1px solid cor[3] 
+                width: 100%
+
+            &-customer-details
+                .woocommerce-column
+                    margin-bottom: 30px
+                    padding-bottom: 30px
+                    border-bottom: 1px solid cor[3] 
+                    width: 100%
+                    h2
+                        font-size: 18px
+                        font-weight: 600
+                        margin-bottom: 10px
+
+            .woocommerce-Address
+                margin-bottom: 30px
+                padding-bottom: 30px
+                border-bottom: 1px solid cor[3] 
+                width: 100%
+                h3
+                    font-size: 18px
+                    font-weight: 600
+                    margin-bottom: 10px

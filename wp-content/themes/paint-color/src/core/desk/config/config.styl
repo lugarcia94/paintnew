@@ -1,0 +1,27 @@
+
+// 0-Rosa, 1-Azul escuro, 2-Cinza Claro, 3-Cinza mais claro 4-cinza
+cor = ( #ca2f63 #0d2d53 #787878 #eaeaea #666666 #EAAE26)
+
+radio = {
+    'default': 4px
+}
+
+family = ( unquote("'Maven Pro', sans-serif") unquote("'roboto', sans-serif") )
+transition = ( unquote('all 150ms ease-in-out') unquote('all 300ms ease-in-out') )
+
+
+base 
+    background: #fff
+    border-radius: radio.default
+    box-shadow: 0 5px 12px rgba(0,0,0,.15)
+
+$containerBase
+    margin: 0 auto !important
+    max-width: 1600px !important
+    @media (min-width: 640px)
+        padding-left: 30px
+        padding-right: 30px
+
+    @media (min-width: 960px)
+        padding-left: 40px
+        padding-right: 40px

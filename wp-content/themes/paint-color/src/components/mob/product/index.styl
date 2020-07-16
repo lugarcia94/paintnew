@@ -1,0 +1,357 @@
+
+
+.product
+
+    &__card 
+        border-radius: 8px
+        box-shadow: none
+
+
+    &__col-1
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative
+    &__col-2
+        padding: 25px
+        margin-top: 0!important
+        @media(max-width 960px) 
+            padding: 20px 15px 20px 30px
+
+    &__image
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 0
+        .onsale,
+        .yith-wcwl-add-to-wishlist
+            display: none
+
+
+    .woocommerce-product-gallery
+        display: flex
+        flex-direction: column
+
+    .woocommerce-product-gallery__trigger
+        display: none
+
+    .flex-viewport
+        margin-bottom: 15px
+
+    .flex-control-thumbs
+        list-style: none
+        flex: 0 0 100%
+        margin: 30px
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        li
+            padding: 0
+            border: none
+            margin: 0 10px
+            flex: 0 0 10px
+            img
+                border-radius: 100%
+                filter: grayscale(100%) brightness(0%) invert(70%);
+                &.flex-active
+                    filter: grayscale(100%) brightness(0%) invert(50%);
+
+
+    &__description
+        font-size: 14px
+        line-height: 32px
+        color: rgba(0, 0, 0, 0.53)
+        padding: 0 10px
+
+        h2  
+            font-size: 18px
+            line-height: 37px
+            color: rgba(0, 0, 0, 0.73)
+
+        ul  
+            list-style: disc
+            padding: 0 0 0 15px !important
+
+        p  
+            margin: 0 0 40px 0
+
+
+
+    &__name
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.53)
+
+    &__review-top
+        margin-bottom: 10px
+    &__code
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(0, 0, 0, 0.33);
+
+    &__installments
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(48, 48, 48, 0.73);
+        display: block
+
+    
+
+    &__price
+        font-size: 38px;
+        line-height: 52px;
+        color: rgba(0, 0, 0, 0.73);
+
+        .price
+            del,
+            ins
+                display: block
+                line-height: 1em
+            del
+                font-size: 18px
+                color: rgba(0,0,0,.3)
+            ins
+                color: rgba(0,0,0,.73)
+                font-size: 38px
+                font-weight: normal
+                background: none
+
+
+    .stock
+        &.in-stock
+            display: none
+
+    &__groupinfo
+        &-list 
+            margin: 20px 0
+            list-style none!important
+            padding: 0!important
+            >li 
+                position: relative
+                padding: 18px 0
+                >a
+                    &:before
+                        display: none
+
+        &--description
+            padding: 0 10px!important
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+                
+
+        &-button
+            position: absolute
+            top: 0
+            bottom: 0
+            left: 0
+            width: 100%
+            z-index: 1
+            background: none
+            border: none
+            // display: none
+
+        &-inner
+            display: flex
+            align-items: flex-start
+
+            svg  
+                margin: 0 10px 0 0
+
+            &-content
+                font-size: 16px;
+                line-height: 16px
+                color: rgba(0, 0, 0, 0.33);
+                position: relative
+                width: 100%
+
+                span 
+                    display: block
+                    font-size: 18px;
+                    line-height: 18px
+                    color: rgba(0, 0, 0, 0.73);
+                    margin:  0 0 10px 0
+
+                svg  
+                    position: absolute
+                    right: 0
+                    top: 0
+                    transform:rotate(-180deg)
+                    margin: 0 0 0 0
+                    height: 13px
+        
+    .variations
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        li
+            flex: 0 0 50%
+
+        .reset_variations
+            display: none
+
+    .woocommerce-variation
+        &-availability
+            display: none
+
+
+    .woocommerce-variation-add-to-cart,
+    form.cart
+        display: flex
+        flex-wrap: wrap
+
+    #cfpp
+        flex: 0 0 100%
+        display: block!important
+        order: 0
+        #cfpp_credits
+            display: none
+
+        .calculo-de-frete
+            display: flex
+            justify-content: space-between
+            align-items: center
+            flex-wrap: wrap
+            input[type=text]
+                width: auto!important
+            #calcular-frete
+                margin-bottom: 0
+                border-radius: 4px
+                height 50px
+    
+
+    .quantity
+        >label
+            display: none
+        .qty
+            width: 60px
+            margin: 0 10px 0 0
+
+    .quantity
+        order 1
+
+    #wc_quick_buy_hook_10
+        order: 2
+
+    .quick_buy_container
+        order: 3
+        flex: 1 1 auto
+
+        .quick_buy_button
+            width: 100%
+            height: 48px
+            background: cor[0]
+            color: #fff
+            font-size: 18px
+            font-weight: 600
+            border: none 
+            border-radius: 4px
+
+    button[name=add-to-cart],
+    .single_add_to_cart_button
+        margin-top: 15px
+        flex: 0 0 100%
+        background: none
+        border: 1px solid cor[0]
+        border-radius: 4px
+        font-size: 18px
+        color: cor[0]
+        font-weight: 600
+        cursor: pointer
+        height 48px
+        order: 4
+        &.shop_now_button
+            background: cor[0]
+            color: #fff
+            flex: 1 1 auto
+            margin-bottom: 10px
+
+    .shop_attributes
+        tbody
+            display: flex
+            align-items: center
+            justify-content: space-between
+            flex-wrap: wrap
+            tr
+                flex: 0 0 33.333333%
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                margin-bottom: 10px
+                th
+                    font-size: 14px
+                    color: rgba(0,0,0,.33)
+
+.single-product
+
+    .woocommerce-breadcrumb
+        display: none!important
+    #shipping-calc
+        @media(max-width 380px)
+            #wscp-postcode.text 
+                margin: 0 0 10px;
+                margin-right: 0!important;
+            #wscp-button
+                width: 100%!important
+            #delivery_truck
+                margin: 0 0 10px
+
+.modal__hidden
+    display none
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background: #fff
+    padding: 50px
+    border-radius: 5px
+    box-shadow: 1px 1px 15px #0000003b
+    z-index: 999999
+
+    @media(max-width: 991px)
+        width 100%
+        padding: 15px
+
+input#wscp-postcode
+    @media(max-width: 991px)
+        width 100%!important
+
+.on__modal-frete
+    &:before
+        content:  ''
+        background: #000
+    .modal__hidden
+        display: block
+
+.title__modal
+    display: flex
+    align-items: flex-start
+
+    >div
+        max-width 80%
+        strong 
+            display: block
+            font-size: 18px
+
+        span
+            color: #8c8888
+
+        a#modal__open
+            margin: 0
+            font-size: 15px
+
+.modal__hidden
+    
+    strong 
+        display: block
+        font-size: 18px    
+
+    span
+        display: block
+        color: #8c8888
+        margin-bottom 15px
+
+.close__modal 
+    position: absolute
+    right: 10px
+    top: 10px
+    font-size: 20px
+    font-weight: 700
+    color: #999
+    cursor pointer                

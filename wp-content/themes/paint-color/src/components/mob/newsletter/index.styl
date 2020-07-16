@@ -1,0 +1,95 @@
+.newsletter
+
+    &__title
+        margin: 0 0 20px 0
+        h3
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        p
+            font-size: 16px;
+            color: #fff;
+
+    
+    .mailpoet_form
+        padding: 0!important
+        position: relative
+        .mailpoet_paragraph
+            margin-bottom: 0!important;
+
+        .mailpoet_text
+            height 40px;
+            background: #B1B1B1
+            border: 1px solid #fff;
+            font-size: 15px
+            color: #fff
+            border-radius: 10px
+            width: 100%
+            padding: 0 60px 0 10px
+            &::-webkit-input-placeholder 
+                color: #fff !important
+            &:-moz-placeholder
+                color: #fff !important
+            &::-moz-placeholder
+                color: #fff !important
+            &:-ms-input-placeholder  
+                color: #fff !important
+
+        .mailpoet_submit
+            position: absolute
+            z-index 1
+            top: 0
+            right: 0
+            height 40px
+            width: 50px!important
+            border-radius: 0 10px 10px 0
+            opacity: 0
+            appearance: none;
+            cursor pointer
+
+        .send_icon
+            position: absolute
+            top: 0;
+            right 0
+            height 40px
+            width: 50px
+            background: #ffffff
+            border-radius: 0 10px 10px 0
+            display: flex
+            align-items: center
+            justify-content: center
+
+    &__input 
+        width: 100%
+        border: none 
+        height: 60px
+        padding: 15px
+        font-size: 18px
+        font-weight: 600
+        color:  rgba(0, 0, 0, 0.33);
+        position: absolute
+
+
+    &__button
+        background: #FFB610;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 23px;
+        border: none
+        width: 180px
+        height: 56px
+        border-radius: 10px
+        position: absolute
+        top: 2px
+        right: 2px
+        font-weight: 600
+
+        @media( max-width: 440px)
+            font-size: 0
+            min-width: 40px
+            width: 40px
+            
+
+        svg  
+            fill: #fff

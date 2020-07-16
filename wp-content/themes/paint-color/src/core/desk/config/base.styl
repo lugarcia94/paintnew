@@ -1,0 +1,68 @@
+body
+    font-family: family[1]
+    background: #FAFAFA
+    // max-width: 900px
+    margin: 0 auto
+
+    // .product-page
+    //     background: #FAFAFA
+
+
+&::-webkit-scrollbar
+    width 5px
+
+&::-webkit-scrollbar-track
+    background #ddd
+    border-radius 2px
+
+&::-webkit-scrollbar-thumb
+    background-color: cor[1];
+
+
+
+
+
+
+// Showcases
+.uk-slidenav
+    background: cor[1]
+    color: #ffffff
+    width: 40px
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    cursor: pointer
+
+    svg
+        width: 16px
+        height: 16px
+
+    polyline
+        stroke-width: 3px;
+
+.uk-position-center-left
+        left: -10px
+.uk-position-center-right
+    right: -10px
+
+.uk-slider-nav
+    position: relative
+    z-index: 1
+    margin: 0 !important
+    top: -25px
+    height: 0
+
+    li  
+        a
+            border: 1px solid cor[0]
+        &.uk-active
+            a
+                background: cor[0] !important
+
+
+
+svg.icon
+    width: 24px
+    height: 24px

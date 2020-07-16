@@ -1,0 +1,41 @@
+{
+  "name": "thanks-to-it/color-or-image-variation-swatches-for-woocommerce-pro",
+  "description": "Provides new WooCommerce type attributes (color,label,image) for creating beautiful variations",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "woocommerce",
+    "variation",
+    "term",
+    "taxonomy"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/thanks-to-it/color-or-image-variation-swatches-for-woocommerce"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": ">=v1.2.0",
+    "cmb2/cmb2": "dev-master",
+    "thanks-to-it/color-or-image-variation-swatches-for-woocommerce": "dev-master",
+    "pablo-pacheco/wc-custom-settings-options": "dev-master"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "installer-paths": {
+      "vendor/{$vendor}/{$name}": [
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "autoload": {
+    "files": [
+      "vendor/thanks-to-it/color-or-image-variation-swatches-for-woocommerce/color-or-image-variation-swatches-for-woocommerce.php"
+    ]
+  }
+}

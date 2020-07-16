@@ -1,0 +1,70 @@
+.newsletter
+
+    background: cor[0]
+
+    &__header
+        margin: 10px 0 20px 0
+        color: #fff
+        font-size: 24px
+        display: flex
+        align-items: center
+
+        svg  
+            fill: #fff
+            width: 40px
+            height: 40px
+            margin: 0 10px 0 0
+
+        @media(max-width 440px)
+            font-size: 18px
+            svg  
+                fill: #fff
+                width: 30px
+                height: 30px
+    
+    &__form
+        border-radius: 10px
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2)
+        position: relative
+        display: flex
+        align-items: stretch
+        height: 60px
+        overflow: hidden
+
+
+    
+    &__input 
+        width: 100%
+        border: none 
+        height: 60px
+        padding: 15px 60px 15px 15px
+        font-size: 18px
+        font-weight: 600
+        color:  rgba(0, 0, 0, 0.33);
+        position: absolute
+
+
+    &__button
+        background: #FFB610;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 23px;
+        border: none
+        width: 180px
+        height: 56px
+        border-radius: 10px
+        position: absolute
+        top: 2px
+        right: 2px
+        font-weight: 600
+        flex: 0 0 180px
+
+        @media( max-width: 440px)
+            font-size: 0
+            min-width: 50px
+            width: 50px
+            flex: 0 0 50px
+            
+
+        svg  
+            fill: #fff

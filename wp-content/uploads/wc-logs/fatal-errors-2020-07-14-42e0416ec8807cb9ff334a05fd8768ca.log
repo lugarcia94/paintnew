@@ -1,0 +1,14 @@
+2020-07-14T23:48:04+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:98
+Stack trace:
+#0 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(98): PDO->query('SELECT t0.name ...')
+#1 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(736): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->query('SELECT t0.name ...')
+#2 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php(699): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT t0.name ...', Array, Array)
+#3 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(167): MailPoetVen, em /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php, na linha 108
+
+2020-07-14T23:52:43+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:98
+Stack trace:
+#0 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(98): PDO->query('SELECT t0.name ...')
+#1 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(736): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->query('SELECT t0.name ...')
+#2 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Persisters/Entity/BasicEntityPersister.php(699): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT t0.name ...', Array, Array)
+#3 /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(167): MailPoetVen, em /home/paintcolornovo/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php, na linha 108
+

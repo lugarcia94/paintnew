@@ -1,0 +1,173 @@
+/*!
+ * Main style of Color or Image Variation Swatches for WooCommerce
+ *
+ * @version 1.0.0
+ * @since   1.0.0
+ * @author  Thanks to IT.
+ */
+/*!
+ * Main style of Color or Image Variation Swatches for WooCommerce
+ *
+ * @version 1.0.0
+ * @since   1.0.0
+ * @author  Thanks to IT.
+ */
+.alg-wc-civs-original-select {
+  display: none;
+}
+
+table.variations tr:last-child .alg-wc-civs-attribute {
+  margin-bottom: 22px;
+}
+
+.alg-wc-civs-attribute {
+  font-size: 0;
+}
+
+.alg-wc-civs-term {
+  display: inline-block;
+  min-width: 36px;
+  height: 36px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #ccc;
+  line-height: 31px;
+  font-weight: bold;
+  background-color: fff;
+  background-size: cover;
+  text-align: center;
+}
+
+.alg-wc-civs-term:not(.disabled):hover, .alg-wc-civs-term:not(.disabled).active {
+  opacity: 1;
+}
+
+.alg-wc-civs-term:not(.disabled).active {
+  border-color: #333;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.alg-wc-civs-term.label {
+  color: #333;
+  font-size: 17px;
+  text-align: center;
+  padding: 0 8px;
+}
+
+/*# sourceMappingURL=../maps/alg-wc-civs.css.map */
+.alg-wc-civs-attribute {
+  position: relative;
+  margin-top: -15px;
+}
+
+.alg-wc-civs-attribute .alg-wc-civs-term {
+  z-index: 1;
+  position: relative;
+  opacity: 1;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.alg-wc-civs-attribute .alg-wc-civs-term.disabled {
+  opacity: 0.08;
+  cursor: default !important;
+}
+
+.alg-wc-civs-attribute .alg-wc-civs-term:not(.disabled):hover {
+  animation: borderBlink 0.4s infinite alternate ease-in-out;
+}
+
+.alg-wc-civs-term-pointer {
+  display: inline-block;
+  height: 3px;
+  width: 10px;
+  background: #666;
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.alg-wc-civs-term-pointer.disabled {
+  opacity: 0;
+}
+
+@keyframes borderBlink {
+  from {
+    border-color: #fff;
+  }
+  to {
+    border-color: #000;
+  }
+}
+
+.alg-wc-civs-select2-img-wrapper {
+  font-size: 0;
+  margin-right: 5px;
+}
+
+.alg-wc-civs-select2-img-wrapper .alg-wc-civs-term {
+  margin-right: 0;
+  border-color: #000;
+  opacity: 1;
+}
+
+.alg-wc-civs-select2-img-wrapper .alg-wc-civs-term.label {
+  color: #333;
+  font-size: 17px;
+  text-align: center;
+  padding: 0 8px;
+  background: #fff;
+}
+
+.alg-wc-civs-select2-img-wrapper .alg-wc-civs-term:not(.disabled):hover, .alg-wc-civs-select2-img-wrapper .alg-wc-civs-term:not(.disabled).active {
+  opacity: 1;
+  border-color: #ccc;
+}
+
+.alg-wc-civs-select2-img-wrapper .alg-wc-civs-term:not(.disabled).active {
+  border-color: #ccc;
+  box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 24px !important;
+}
+
+.select2-selection__rendered .alg-wc-civs-select2-label {
+  position: relative;
+  top: -1px;
+}
+
+.select2-selection__rendered .alg-wc-civs-select2-img-wrapper {
+  height: 20px;
+}
+
+.select2-selection__rendered .alg-wc-civs-term {
+  min-width: 18px;
+  height: 18px;
+  margin-right: 0;
+  border: none;
+}
+
+.select2-selection__rendered .alg-wc-civs-term.label {
+  font-size: 15px;
+  line-height: 18px;
+  background: #000;
+  color: #fff;
+  padding: 0 4px;
+}
+
+.alg-wc-civs-select2-img-wrapper, .alg-wc-civs-select2-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+table.variations tr:last-child .alg-wc-civs-original-select {
+  margin-bottom: 22px;
+}
+
+/*# sourceMappingURL=../maps/alg-wc-civs.css.map */

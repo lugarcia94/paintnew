@@ -1,0 +1,194 @@
+.showcase,
+ul.products
+
+    .uk-slidenav
+        background: none
+        opacity: 1;
+        // height: 75px
+        // width: 75px
+        color: rgba(0, 0, 0, 0.33);
+
+        svg  
+            opacity: 1;
+            width: 25px
+            height: 25px
+            fill: rgba(0, 0, 0, 0.33);
+
+    .uk-slidenav-previous
+        left: -25px
+
+    .uk-slidenav-next 
+        right: -25px
+
+    &__header
+        border-top: 2px solid rgba(0, 0, 0, 0.08);
+        margin: 0 0 30px 0 !important
+
+    &__allview
+        font-size: 16px
+        color: cor[2]
+        height: 45px 
+        padding: 0 10px
+        display: flex
+        align-items: center
+        justify-content: center
+        &:hover
+            text-decoration: none
+            color: cor[2]
+
+
+    &__title
+        text-transform: uppercase
+        font-size: 19px
+        line-height: 22px
+        color: rgba(0, 0, 0, 0.53)
+        display: flex
+        align-items: center
+        // justify-content: center
+
+    .uk-grid
+        margin-left: -15px!important
+    &__list  
+        &-item 
+            position: relative
+            padding-bottom: 15px
+            flex: 0 0 50%
+            padding-left: 15px!important
+            >div
+                padding: 5px!important
+
+    
+    &__giftlist
+        width: 45px
+        height: 45px
+        background: none 
+        border: none 
+        position: absolute
+        right: 5px
+        top: 5px
+        z-index: 100
+        .yith-wcwl-add-to-wishlist
+            margin: 0
+            display: flex;
+            height: 45px;
+            align-items: center;
+            justify-content: center;
+            .add_to_wishlist
+                >span 
+                    display: none
+                i 
+                    font-size: 24px
+                    font-weight: 600
+                    color: cor[2]
+
+            .yith-wcwl-wishlistexistsbrowse
+                .feedback
+                    // position: absolute;
+                    // right: 0;
+                    // top: 0;
+                    // left: 0;
+                    display: block
+                    width: 100%
+                    padding: 5px;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                    color: cor[2]
+                    font-size: 0
+                    i 
+                        font-size:  24px
+                        font-weight: 600
+                a
+                    position: absolute;
+                    right: 0;
+                    left: -130px;
+                    top: 100%;
+                    border-radius: 4px
+                    padding: 5px
+                    color: #fff;
+                    background: #ca2f63;
+                    display: opacity 0
+                    visibility hidden
+
+                &:hover
+                    a
+                        opacity: 1
+                        visibility: visible
+
+    
+
+    &__figure
+        span
+            display: none!important
+        img
+            margin: 0 auto
+
+
+
+    &__name
+        margin: 15px 0 0 0
+        a
+            display: block
+            text-align: center
+            font-size: 16px
+            line-height: 18px
+            font-weight: bold
+            color: cor[2]
+            text-decoration: none
+
+            &:hover
+                color: cor[2]
+
+            &:before 
+                content: ''
+                position: absolute
+                left: 0
+                right: 0
+                top: 0 
+                bottom: 0 
+                z-index: 1
+
+
+    &__data 
+        text-align: center
+        margin: 15px 0 0 0
+
+    &__offer
+        font-weight: 600
+        font-size: 18px
+        color: cor[2]
+        *
+            color: cor[2]
+        .fswp_installments_price
+            font-size: 14px
+            line-height: 14px
+            margin: 10px 0
+        .woocommerce-Price-amount
+            color: cor[2]!important
+        .price
+            del
+                color: cor[2]!important
+
+
+    &__labels
+        display: flex
+        justify-content: center
+        display: none
+
+    &__label
+        padding: 10px
+
+        &.frete-gratis
+            color: #FFB610;
+            font-size: 14px;
+            
+.fswp_installments_price
+    &.loop
+        .price.fswp_calc
+            display: block
+            width: 100%
+            *
+                font-weight: 400
+                font-size: 16px;
+                color: rgba(48, 48, 48, 0.73);
+
+    

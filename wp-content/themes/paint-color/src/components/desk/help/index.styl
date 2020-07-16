@@ -1,0 +1,77 @@
+.help
+    >button
+        background: none
+        border: none
+        cursor: pointer
+        svg
+            width: 28px
+            height: 28px
+
+    &_box
+        background: #fff
+        *,
+        h3,
+        a
+            color: cor[1]
+        @media(min-width 960px)
+            width: 450px
+        @media(max-width 960px)
+            width: 330px
+
+    &_content
+        &--block
+            margin-bottom: 30px
+            padding-bottom: 30px
+            border-bottom: 2px solid #ebebeb
+            &:last-child
+                border-bottom: none
+                margin-bottom: 0
+                padding-bottom: 0
+            h3
+                font-size: 22px
+                font-weight: 600
+                margin-bottom: 30px
+
+            p
+                font-size: 16px
+                color: cor[2]
+
+        &--contacts
+            li
+                display: flex
+                align-items: center
+                margin-bottom: 20px
+                padding-bottom: 20px
+                border-bottom: 2px solid #ebebeb
+                font-size: 16px
+                color: cor[2]
+                &:last-child
+                    margin-bottom: 0
+                    padding-bottom: 0
+                    border-bottom: none
+            svg
+                margin: 0 10px 0 0
+                &.icon-help-whats
+                    width: 33px
+                    height: 32px
+                &.icon-help-phone
+                    width: 30px
+                    height 31px
+                &.icon-help-mail
+                    width: 33px
+                    height 22px
+
+        .faq_link
+            height: 48px
+            display: flex
+            align-items: center
+            justify-content: center
+            border-radius: 5px
+            border: 2px solid cor[0]
+            color: cor[0]
+            font-weight: 600
+            margin-top: 20px
+            transition: transition[0]
+            &:hover
+                background: cor[0]
+                color: #fff

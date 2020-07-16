@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ClearSale\n"
+"POT-Creation-Date: 2016-01-20 11:50-0200\n"
+"PO-Revision-Date: 2016-01-20 11:50-0200\n"
+"Last-Translator: \n"
+"Language-Team: Guilherme Motta <guifmotta@weblibre.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: clearsale-usa.php:95 clearsale-usa.php:136
+msgid "Automatic Approval"
+msgstr "Aprovação Automática"
+
+#: clearsale-usa.php:96 clearsale-usa.php:137
+msgid "Manual Approval"
+msgstr "Aprovação Manual"
+
+#: clearsale-usa.php:97 clearsale-usa.php:138
+msgid "Denied without prejudice"
+msgstr "Recusado Sem Prejuízo"
+
+#: clearsale-usa.php:98 clearsale-usa.php:139
+msgid "Manual Analysis"
+msgstr "Análise Manual"
+
+#: clearsale-usa.php:99 clearsale-usa.php:140
+msgid "Error"
+msgstr "Erro"
+
+#: clearsale-usa.php:100 clearsale-usa.php:141
+msgid "New Order"
+msgstr "Novo Pedido"
+
+#: clearsale-usa.php:101 clearsale-usa.php:142
+msgid "Fraud Suspicion"
+msgstr "Suspeita de Fraude"
+
+#: clearsale-usa.php:102 clearsale-usa.php:143
+msgid "Customer asked for cancellation"
+msgstr "Cliente pediu para cancelamento"
+
+#: clearsale-usa.php:103 clearsale-usa.php:144
+msgid "Confirmed Fraud"
+msgstr "Fraude Confirmada"
+
+#: clearsale-usa.php:104 clearsale-usa.php:145
+msgid "Automatically Denied"
+msgstr "Recusado Automáticamente"
+
+#: clearsale-usa.php:105 clearsale-usa.php:146
+msgid "Denied by Policy"
+msgstr "Recusado por Política"
+
+#: clearsale-usa.php:116
+msgid "Status ClearSale"
+msgstr ""
+
+#: clearsale-usa.php:124
+msgid "New consult"
+msgstr "Nova Consulta"
+
+#: clearsale-usa.php:152
+msgid "Consulting..."
+msgstr "Consultando ..."
+
+#: clearsale-usa.php:379
+msgid "Settings"
+msgstr "Configurações"
+
+#: clearsale-usa.php:534
+msgid "Once every ten mintues"
+msgstr "A cada dez minutos"
+
+#: clearsale-usa.php:539
+msgid "Once every two mintues"
+msgstr "A cada dois minutos"
+
+#: clearsale-usa.php:543
+msgid "Once every fifteen mintues"
+msgstr "A cada quinze minutos"
+
+#: clearsale-usa.php:548
+msgid "Once every thirty mintues"
+msgstr "A cada trinta minutos"
+
+#: includes/views/admin/config-admin.php:45
+msgid "ClearSale Options"
+msgstr "Configurações ClearSale"
+
+#: includes/views/admin/config-admin.php:48
+msgid ""
+"Attention: For the proper operation of this plugin is required installation "
+"of another plugin to manage the checkout fields.<br/>\n"
+"        We recomend the <a href=\"/wp-admin/plugin-install.php?tab=plugin-"
+"information&plugin=woo-checkout-field-editor-"
+"pro&TB_iframe=true&width=600&height=550\">Woo Checkout Field Editor Pro</a>."
+"<br/>\n"
+"        You need create a field for gender with the name \"billing_gender\" "
+"and another field for birthdate with name \"billing_birthdate\"."
+msgstr ""
+"Atenção: Para o funcionamento correto do plugin é necessário a instalação de "
+"outro plugin para gerenciar os campos do checkout.<br/>\n"
+"Nós recomendamos o <a href=\"/wp-admin/plugin-install.php?tab=plugin-"
+"information&plugin=woo-checkout-field-editor-"
+"pro&TB_iframe=true&width=600&height=550\">Woo Checkout Field Editor Pro</a>."
+"<br/>\n"
+"Você precisará criar um campo para sexo com o nome \"billing_gender\" e "
+"outro campo para data de nascimento com o nome \"billing_birthdate\"."
+
+#: includes/views/admin/config-admin.php:55
+msgid "API Key"
+msgstr ""
+
+#: includes/views/admin/config-admin.php:59
+msgid "Client ID"
+msgstr ""
+
+#: includes/views/admin/config-admin.php:63
+msgid "Client Secret"
+msgstr ""
+
+#: includes/views/admin/config-admin.php:67
+msgid "App ID"
+msgstr ""
+
+#: includes/views/admin/config-admin.php:71
+msgid "Consultation Frequency"
+msgstr "Frequência de Consulta"
+
+#: includes/views/admin/config-admin.php:74
+msgid "Two Minutes"
+msgstr "Dois Minutos"
+
+#: includes/views/admin/config-admin.php:75
+msgid "Five Minutes"
+msgstr "Cinco Minutos"
+
+#: includes/views/admin/config-admin.php:76
+msgid "Fifteen Minutes"
+msgstr "Quinze Minutos"
+
+#: includes/views/admin/config-admin.php:77
+msgid "Thirty Minutes"
+msgstr "Trinta Minutos"
+
+#: includes/views/admin/config-admin.php:78
+msgid "Hourly"
+msgstr "Uma Hora"
+
+#: includes/views/admin/config-admin.php:79
+msgid "Twice Daily"
+msgstr "Duas Vezes por Dia"
+
+#: includes/views/admin/config-admin.php:80
+msgid "Daily"
+msgstr "Diariamente"
+
+#: includes/views/admin/config-admin.php:88
+msgid "Methods that will consult"
+msgstr "Métodos que irão consultar"
+
+#: includes/views/admin/config-admin.php:111
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/views/admin/config-admin.php:113
+msgid "Test"
+msgstr "Teste"
+
+#: includes/views/admin/config-admin.php:115
+msgid "Production"
+msgstr "Produção"
+
+#: includes/views/admin/config-admin.php:119
+msgid "Debug"
+msgstr "Depuração"
+
+#: includes/views/admin/config-admin.php:120
+msgid "Enabled"
+msgstr "Habilitar"
+
+#: includes/views/admin/config-admin.php:124
+msgid "Save Changes"
+msgstr "Salvar Aterações"
+
+#~ msgid "Pending a new consult"
+#~ msgstr "Nova Consulta Pendente"
+
+#~ msgid ""
+#~ "Attention: For the proper operation of this plugin is required "
+#~ "installation of another plugin, to manage the checkout fields.<br/>\n"
+#~ "        We recomend the <a href=\"/wp-admin/plugin-install.php?tab=plugin-"
+#~ "information&plugin=woo-checkout-field-editor-"
+#~ "pro&TB_iframe=true&width=600&height=550\">Woo Checkout Field Editor Pro</"
+#~ "a>.<br/>\n"
+#~ "        You need create a field for gender with the name \"billing_gender"
+#~ "\" and another field for birthdate with name \"billing_birthdate\"."
+#~ msgstr ""
+#~ "Atenção: Para o correto funcionamento do plugin é necessário a instalação "
+#~ "de um plugin para gerenciar os campos do checkout.<br/>\n"
+#~ "Recomendamos o <a href=\"/wp-admin/plugin-install.php?tab=plugin-"
+#~ "information&plugin=woo-checkout-field-editor-"
+#~ "pro&TB_iframe=true&width=600&height=550\">Woo Checkout Field Editor Pro</"
+#~ "a>.<br/>\n"
+#~ "Você precisa criar um campo para sexo com o nome \"billing_gender\" e "
+#~ "outro para data de nascimento com o nome \"billing_birthdate\"."
+
+#~ msgid "Consult ClearSale"
+#~ msgstr "Consultar a ClearSale"
+
+#~ msgid "Integration Code"
+#~ msgstr "Código de Integração"
+
+#~ msgid "User Configurations (usermeta/postmeta table)"
+#~ msgstr "Configurações do usuário (tabela usermeta/postmeta)"
+
+#~ msgid "CPF Field Name"
+#~ msgstr "Nome do Campo CPF"
+
+#~ msgid "CNPJ Field Name"
+#~ msgstr "Nome do Campo CNPJ"
+
+#~ msgid "Birthdate Field Name"
+#~ msgstr "Nome do campo da Data de Nascimento"
+
+#~ msgid "Test Environment"
+#~ msgstr "Ambiente de Teste"
+
+#~ msgid "Field Name of CPF"
+#~ msgstr "Nome do Campo CPF"
+
+#~ msgid "Field Name of CNPJ"
+#~ msgstr "Nome do Campo CNPJ"
+
+#~ msgid "Field Name of Birthdate"
+#~ msgstr "Nome do campo da Data de Nascimento"
+
+#~ msgid "User Configurations (usermeta table)"
+#~ msgstr "Configurações do usuário (tabela usermeta)"
+
+#~ msgid "Field Name of CPF/CNPJ"
+#~ msgstr "Nome do Campo CPF/CNPJ"

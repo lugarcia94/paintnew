@@ -1,0 +1,37 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height:24px !important;
+}
+.select2-selection__rendered{
+	.alg-wc-civs-select2-label{
+		position:relative;
+		top:-1px;
+	}
+	.alg-wc-civs-select2-img-wrapper{
+		height:20px;
+	}
+	.alg-wc-civs-term{
+		min-width:18px;
+		height:18px;
+		margin-right:0;
+		border:none;
+
+		&.label{
+			font-size:15px;
+			line-height:18px;
+			background:#000;
+			color:#fff;
+			padding:0 4px;
+		}
+	}
+}
+.alg-wc-civs-select2-img-wrapper, .alg-wc-civs-select2-label{
+	display:inline-block;
+	vertical-align:middle;
+}
+table.variations{
+	tr:last-child{
+		.alg-wc-civs-original-select{
+			margin-bottom:22px;
+		}
+	}
+}

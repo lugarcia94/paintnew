@@ -1,0 +1,38 @@
+06-15-2020 @ 14:34:55 - Weight and cubage of the order: Array
+(
+    [weight] => 1
+    [height] => 30
+    [width] => 30
+    [length] => 30
+)
+
+06-15-2020 @ 14:34:55 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=14145898&sDsSenha=09433975&sCepDestino=01123050&sCepOrigem=01123050&nVlAltura=30&nVlLargura=30&nVlDiametro=0&nVlComprimento=30&nVlPeso=1&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0&sCdAvisoRecebimento=N&StrRetorno=xml
+06-15-2020 @ 14:34:56 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => -888
+            [MsgErro] => Não foi encontrada precificação. ERP-007: CEP de origem nao pode postar para o CEP de destino informado(-1).
+        )
+
+)
+

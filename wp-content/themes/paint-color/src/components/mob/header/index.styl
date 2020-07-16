@@ -1,0 +1,201 @@
+.header 
+    position: relative
+    z-index: 10
+
+    .uk-container
+        padding: 0 0 0 0
+  
+    &__bar 
+        position: relative
+        z-index: 2
+        background: cor[0]
+        // position: fixed
+        // top: 0
+        // width: 100%
+        height: 60px
+
+
+    &:after
+        content: ''
+        background: #000000
+        position: fixed
+        left: 0
+        top:0
+        bottom: 0
+        right: 0
+        z-index: -1
+        visibility: hidden
+        opacity: 0
+        transition: transition[0]
+        [menu=true] &  
+            visibility: visible
+            z-index: 0
+            opacity: 0.5
+
+        
+
+.brand 
+    margin-left: 15px
+    &__link
+        color: #ffffff
+        font-size: 20px 
+        display: flex
+        align-items: center
+        justify-content: center
+
+
+
+.menu
+.header__search
+.topcart 
+    > button
+        background: none
+        border: none
+        padding: 0
+        width: 53px
+        height: 100%
+        margin: 0 0 0 0
+        display: flex
+        align-items: center
+        justify-content: center
+        svg  
+            fill: #fff
+
+
+
+.menu 
+
+    &__button 
+
+        .icon-close
+            display: none
+
+        &.actived 
+
+            .icon-menu
+                display: none
+
+            .icon-close
+                display: block
+            
+
+    &__container
+        position: fixed
+        background: #ffffff
+        top: 60px
+        bottom: 0
+        right: -200%
+        z-index: 1
+        width: 400px
+        max-width: 90%
+        visibility: hidden
+        transition: transition[0]
+        overflow-y: auto
+        [menu=true] & 
+            right: 0
+            visibility: visible
+
+
+
+    &__account
+        a  
+            border-bottom: 1px solid #ddd
+
+    &__account
+    &__whatsapp
+        a  
+            color: cor[2]
+            font-size: 23px
+            display: block
+            text-decoration: none
+            padding: 15px 20px
+            font-weight: 600
+            &:hover 
+                color: cor[0]
+                text-decoration: none
+
+
+    &__title
+        color: lighten(cor[2],40%)
+        font-size: 13px
+        text-transform: uppercase
+        border-bottom: 1px solid #ddd
+        padding: 10px 20px 5px 20px
+
+
+    
+    &__list 
+
+        li  
+            border-bottom: 1px solid #ddd
+            padding: 0 50px 0 0
+            position: relative
+            &.active
+                >.sub_trigger
+                    &:after
+                        opacity: 0
+            .sub_trigger
+                position: absolute
+                right 0
+                top: 0
+                height 50px
+                width: 50px
+                &:before 
+                    content: ''
+                    display: block
+                    height 2px
+                    width: 14px
+                    background: cor[2]
+                    position: absolute
+                    right 20px
+                    top: 24px
+                &:after 
+                    content: ''
+                    display: block
+                    height 14px
+                    width: 2px
+                    background: cor[2]
+                    position: absolute
+                    right 26px
+                    top: 18px
+                    transition: all 150ms ease-in-out;
+            .sub-menu
+                max-height: 0
+                overflow: hidden
+                transition: all 150ms ease-in-out;
+                margin-right: -50px
+                &.active
+                    background: #ca2f63
+                    max-height: 99999999px
+                    border-top: 1px solid #ddd
+                    a
+                        color: #fff
+
+                    .sub_trigger
+                        &:before,
+                        &:after
+                            background: #fff 
+
+                .sub-menu
+                    &.active
+                        background: #a0264f
+
+
+
+            a
+                padding: 12px 20px
+                font-size: 18px
+                font-weight: 400
+                display: block
+                width: 100%
+                color: cor[2]
+                text-decoration: none
+       
+       
+        
+
+
+
+
+
+   
